@@ -1,0 +1,113 @@
+:root {
+    --slate: #434455;
+    --navyblue: #2E2F42;
+    --white: #FFF;
+    --iris: #4D5AE5;
+    --cloud: #F4F4FD;
+    --ocean: #404BBF;
+}
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    cursor: pointer;
+    color: var(--slate);
+    background-color: var(--white);
+}
+
+.team p {
+    text-align: center;
+}
+
+
+h1 {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 2%;
+    color: var(--white); 
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+    color: var(--navyblue);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-weight: medium;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+
+.info h3{
+    color: var(--navyblue);
+}
+
+.team h3 {
+    color: var(--navyblue);
+    text-align: center;
+}
+
+.portfolio-menu h3 {
+    color: var(--navyblue);
+}
+
+.page-nave {
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: var(--navyblue);
+}
+
+button {
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 4%;
+    color: var(--white);
+    background-color: var(--iris);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--ocean);
+}
+
+.button-menu li button {
+    color: var(--iris);
+    background-color: var(--cloud);
+    text-align: center;
+}
+
+.button-menu li:nth-child(1) button {
+    color: var(--white);
+    background-color: var(--ocean);
+    text-align: center;
+}
+
+
+link {
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 4%;
+    text-decoration: none;
+    color: var(--navyblue);
+}
+
+link:active {
+    color: var(--ocean);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+}
