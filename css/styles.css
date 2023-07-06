@@ -1,113 +1,181 @@
 :root {
     --slate: #434455;
     --navyblue: #2E2F42;
-    --white: #FFF;
+    --white: #FFFFFF;
     --iris: #4D5AE5;
     --cloud: #F4F4FD;
     --ocean: #404BBF;
 }
 
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
     cursor: pointer;
-    color: var(--slate);
+    color: #434455;
     background-color: var(--white);
 }
 
-.team p {
-    text-align: center;
+.mail {
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
 }
 
-
-h1 {
-    font-weight: bold;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 2%;
-    color: var(--white); 
-    text-align: center;
+.mail:hover, .mail:focus {
+    color: var(--ocean);
 }
 
-h2 {
-    font-weight: bold;
-    font-size: 36px;
-    letter-spacing: 2%;
-    color: var(--navyblue);
-    text-align: center;
-    text-transform: capitalize;
+.list {
+    list-style: none;
 }
 
-h3 {
-    font-weight: medium;
-    font-size: 20px;
-    letter-spacing: 2%;
-}
-
-.info h3{
-    color: var(--navyblue);
-}
-
-.team h3 {
-    color: var(--navyblue);
-    text-align: center;
-}
-
-.portfolio-menu h3 {
-    color: var(--navyblue);
-}
-
-.page-nave {
-    font-weight: medium;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2%;
-    color: var(--navyblue);
-}
-
-button {
-    font-weight: medium;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 4%;
-    color: var(--white);
-    background-color: var(--iris);
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: var(--ocean);
-}
-
-.button-menu li button {
-    color: var(--iris);
-    background-color: var(--cloud);
-    text-align: center;
-}
-
-.button-menu li:nth-child(1) button {
-    color: var(--white);
-    background-color: var(--ocean);
-    text-align: center;
-}
-
-
-link {
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 4%;
+.link {
     text-decoration: none;
-    color: var(--navyblue);
 }
 
-link:active {
+.link:active {
     color: var(--ocean);
 }
 
 .logo {
     font-family: 'Raleway', sans-serif;
+    font-weight:800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+
+.logo span {
+    color: var(--navyblue);
+}
+
+.footer .logo span {
+    color: var(--cloud);
+}
+
+.page-nave .link-nave {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
+}
+
+.page-nave .link-nave:hover {
+    color: var(--ocean);
+}
+
+.page-nave .link-nave:focus {
+    color: var(--ocean);
+}
+
+address {
+    font-style: normal;
+}
+
+.sectio-one {
+    background-color: var(--navyblue);
+}
+
+.sectio-one .title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+
+.sectio-one .button {
+    background-color: var(--iris);
+    font-family: 'Roboto', sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.sectio-one .button:hover button:focus{
+    background-color: var(--ocean);
+}
+
+.section-portfolio .button-item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em0;
+    color: var(--iris);
+    background-color: var(--cloud);
+    text-align: center;
+    cursor: pointer;
+}
+
+.section-portfolio .button-item:hover, 
+.section-portfolio .button-item:hover {
+    color: var(--white);
+    background-color: var(--ocean);
+}
+
+.title-general {
+    font-weight:500;
+    font-size:20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
+}
+
+.text-general {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.section-three .title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navyblue)
+    ;
+}
+
+.section-four {
+    background-color: var(--cloud);
+}
+
+.section-four .title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navyblue);
+}
+
+.portfolio-menu .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
+}
+
+.footer {
+    background-color: var(--navyblue);
+}
+
+.footer .text-finish {
+    line-height: 1.5;
+    color: var(--cloud);
+    letter-spacing: 0.02em;
 }
