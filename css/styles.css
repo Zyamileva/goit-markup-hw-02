@@ -1,4 +1,6 @@
 :root {
+    --primary-font: "Roboto", sans-serif;
+    --logo-font: "Raleway", sans-serif;
     --slate: #434455;
     --navyblue: #2E2F42;
     --white: #FFFFFF;
@@ -7,9 +9,9 @@
     --ocean: #404BBF;
 }
 
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
+.body {
+    font-family: var(--primary-font);
+    color: var(--slate);
     background-color: var(--white);
 }
 
@@ -36,7 +38,7 @@ color: var(--slate);
 }
 
 .logo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--logo-font);
     font-weight:800;
     font-size: 18px;
     line-height: 1.17;
@@ -86,9 +88,9 @@ address {
 }
 
 .sectio-one .button {
+    font-family: var(--primary-font);
     background-color: var(--iris);
-    font-family: "Roboto", sans-serif;
-    font-weight: medium;
+    font-weight:500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -101,11 +103,11 @@ address {
 }
 
 .section-portfolio .button-item {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em0;
+    letter-spacing: 0.04em;
     color: var(--iris);
     background-color: var(--cloud);
     text-align: center;
