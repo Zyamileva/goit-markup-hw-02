@@ -9,7 +9,7 @@
     --ocean: #404BBF;
 }
 
-.body {
+body {
     font-family: var(--primary-font);
     color: var(--slate);
     background-color: var(--white);
