@@ -47,11 +47,11 @@ color: var(--slate);
     color: var(--iris);
 }
 
-.logo span {
+.header .span-header {
     color: var(--navyblue);
 }
 
-.footer .span-logo {
+.footer .span-footer {
     color: var(--cloud);
 }
 
